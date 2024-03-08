@@ -13,8 +13,8 @@ This repository contains a collection of scripts used for writing performance te
     |   script.js - Test that the K6 installation was successful.
     |
     \---tests
-            browser.js - Runs a experimental browser test. Browser testing is currently experiemental. For more details see below.
-            load.js - Test with 10 virtual users utilizing ramp up and ramp down stages @ 50 seconds.
+            browser.js - Runs a experimental browser test. For more details see below.
+            load.js - Test with 10 virtual users with ramp up and ramp down stages @ 50 seconds.
             smoke.js - Test with a single VU @ 30 seconds.
 ```
 
